@@ -8,5 +8,5 @@ Watchdog library for basic watchdog control
 - Basic ```feed()``` function to keep watchdog alive
 
 ## Tested on
-- ATmega328P @16 MHz
+- ATmega328P @16MHz
 - ATmega328PB @16MHz

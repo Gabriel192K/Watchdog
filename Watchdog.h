@@ -9,10 +9,10 @@ class __WATCHDOG__
     public:
         __WATCHDOG__();
         ~__WATCHDOG__();
-        void    enable   (const uint8_t timeout);
-        void    disable  (void);
-        uint8_t isEnabled(void);
-        void    feed     (void);
+        const uint8_t enable   (const uint8_t timeout);
+        void          disable  (void);
+        const uint8_t isEnabled(void);
+        void          feed     (void);
     private:
         uint8_t watchdogIsEnabled;
 };

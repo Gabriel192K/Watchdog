@@ -2,7 +2,7 @@
 Watchdog library for basic watchdog control
 
 ## Key features
-- Compatible with `Microchip Studio IDE`
+- Compatible with `Microchip Studio IDE` and `Arduino IDE`
 - ```enable()``` and ```disable()``` functions for easy on/off logic
 - ```isEnabled()``` for easy checking if watchdog is turned on or off
 - Basic ```feed()``` function to keep watchdog alive

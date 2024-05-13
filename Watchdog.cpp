@@ -66,7 +66,7 @@ void __WATCHDOG__::disable(void)
  * @brief  Checks if the watchdog timer is enabled
  * @return Returns the watchdog is enabled flag
  */
-uint8_t __WATCHDOG__::isEnabled(void)
+const uint8_t __WATCHDOG__::isEnabled(void)
 {
     return (this->watchdogIsEnabled);
 }
